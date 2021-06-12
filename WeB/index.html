@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+          integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" 
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer" 
+         />
+    <title>Login and Sign Up Form</title>
+</head>
+<body>
+    <div><marquee direction ="right"><img src="enter.jpg" class="image" /></marquee></div>
+    
+    <div class="container">
+        <div class="forms-container">
+            <div class="signin-signup">
+                <form action="#" class="sign-in-form">
+                    <h2 class="title">SIGN IN</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username" />
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" />
+                    </div>
+                    <input type="submit" class="btn solid" value="login" />
+                    <p class="social">OR Sign In with social platforms</p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon"> <i class="fab fa-facebook"> </i> </a>
+                        <a href="#" class="social-icon"> <i class="fab fa-instagram"> </i> </a>
+                        <a href="#" class="social-icon"> <i class="fab fa-twitter"> </i> </a>
+                        <a href="#" class="social-icon"> <i class="fab fa-linkedin-in"> </i> </a>
+                    </div>
+                </form>
+            </div>
+            <div class="signup-signup">
+                <form action="#" class="sign-up-form">
+                    <h2 class="title">SIGN UP</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username" />
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="Email" />
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" />
+                    </div>
+                    <input type="submit" class="btn solid" value="Sign up" />
+                    <p class="social">OR Sign Up with social platforms</p>
+                    <div>
+                        <a href="#" class="social-icon"> <i class="fab fa-facebook"> </i> </a>
+                        <a href="#" class="social-icon"> <i class="fab fa-instagram"> </i> </a>
+                        <a href="#" class="social-icon"> <i class="fab fa-twitter"> </i> </a>
+                        <a href="#" class="social-icon"> <i class="fab fa-linkedin-in"> </i> </a>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>New Here?</h3>
+                    <button class="btn transparent" id="sign-up-button">SIGN UP</button>
+                    <!--<a href="SignUp.html"><button class="btn transparent" id="sign-up-button">SIGN UP</button></a>-->
+                </div>
+                <img src="welcome.jpg" alt="sign up image here" class="image" />
+            </div>
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>One of Us?</h3>
+                    <button class="btn transparent" id="sign-in-button">SIGN IN</button>
+                    <!--<a href="SignUp.html"><button class="btn transparent" id="sign-up-button">SIGN UP</button></a>-->
+                </div>
+                <img src="oldUser.jpg" alt="sign in image here" class="image" />
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
